@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf8f96db317629b459a94d2dc61d3dd1, type: 3}
+  m_Name: IntroScene
+  m_EditorClassIdentifier: 
+  list:
+  - messages:
+    - Hello
+    - World
+    - I will kill you now
+    speaker: {fileID: 4816030156666558535, guid: 45df9de2ce8581446a62526ddc1a85fb,
+      type: 3}
+    anchor: 2
+  - messages:
+    - Hi?
+    - Okay...
+    speaker: {fileID: 7471620451975838437, guid: 45df9de2ce8581446a62526ddc1a85fb,
+      type: 3}
+    anchor: 0
+  - messages:
+    - Shutting down
+    speaker: {fileID: 7471620451975838437, guid: 45df9de2ce8581446a62526ddc1a85fb,
+      type: 3}
+    anchor: 0

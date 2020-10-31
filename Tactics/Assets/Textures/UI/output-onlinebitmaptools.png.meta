@@ -1,0 +1,4172 @@
+fileFormatVersion: 2
+guid: 7151d453d52806d4f9981ae8785d9eb3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7030641909040813342
+    second: output-onlinebitmaptools_0
+  - first:
+      213: -8838669840360096829
+    second: output-onlinebitmaptools_1
+  - first:
+      213: 4317385518068922421
+    second: output-onlinebitmaptools_2
+  - first:
+      213: -4150671817104048141
+    second: output-onlinebitmaptools_3
+  - first:
+      213: 806296550152738184
+    second: output-onlinebitmaptools_4
+  - first:
+      213: 5020223012455330215
+    second: output-onlinebitmaptools_5
+  - first:
+      213: 6437534624907546014
+    second: output-onlinebitmaptools_6
+  - first:
+      213: 3113432819565871833
+    second: output-onlinebitmaptools_7
+  - first:
+      213: -6246223716686227121
+    second: output-onlinebitmaptools_8
+  - first:
+      213: 8588788916389052293
+    second: output-onlinebitmaptools_9
+  - first:
+      213: -4667085892135220917
+    second: output-onlinebitmaptools_10
+  - first:
+      213: 3576055286226267526
+    second: output-onlinebitmaptools_11
+  - first:
+      213: 6355878552307580101
+    second: output-onlinebitmaptools_12
+  - first:
+      213: -1524773025817607304
+    second: output-onlinebitmaptools_13
+  - first:
+      213: -1386120522424411726
+    second: output-onlinebitmaptools_14
+  - first:
+      213: -5701968387627526965
+    second: output-onlinebitmaptools_15
+  - first:
+      213: 7551426701792368063
+    second: output-onlinebitmaptools_16
+  - first:
+      213: -2923151299265033677
+    second: output-onlinebitmaptools_17
+  - first:
+      213: 7379544567047423729
+    second: output-onlinebitmaptools_18
+  - first:
+      213: 6129058632028638573
+    second: output-onlinebitmaptools_19
+  - first:
+      213: -6786722564125165755
+    second: output-onlinebitmaptools_20
+  - first:
+      213: 8768466683697984261
+    second: output-onlinebitmaptools_21
+  - first:
+      213: -1919105679474900449
+    second: output-onlinebitmaptools_22
+  - first:
+      213: 678769601256372477
+    second: output-onlinebitmaptools_23
+  - first:
+      213: 1465763884185080510
+    second: output-onlinebitmaptools_24
+  - first:
+      213: -4403601197916266610
+    second: output-onlinebitmaptools_25
+  - first:
+      213: 4536091919719428960
+    second: output-onlinebitmaptools_26
+  - first:
+      213: -9135230760753803721
+    second: output-onlinebitmaptools_27
+  - first:
+      213: -3764866274087054945
+    second: output-onlinebitmaptools_28
+  - first:
+      213: -3215354007408383138
+    second: output-onlinebitmaptools_29
+  - first:
+      213: -5997070417213205371
+    second: output-onlinebitmaptools_30
+  - first:
+      213: -7089916306076018433
+    second: output-onlinebitmaptools_31
+  - first:
+      213: -7551160680519930596
+    second: output-onlinebitmaptools_32
+  - first:
+      213: -6037235338344647761
+    second: output-onlinebitmaptools_33
+  - first:
+      213: 718678393050501681
+    second: output-onlinebitmaptools_34
+  - first:
+      213: 7560581607174066448
+    second: output-onlinebitmaptools_35
+  - first:
+      213: -2091530150092747969
+    second: output-onlinebitmaptools_36
+  - first:
+      213: -6560510755742753610
+    second: output-onlinebitmaptools_37
+  - first:
+      213: -6785195941285670691
+    second: output-onlinebitmaptools_38
+  - first:
+      213: -1207445045983578104
+    second: output-onlinebitmaptools_39
+  - first:
+      213: -1776742251841641159
+    second: output-onlinebitmaptools_40
+  - first:
+      213: -6376538279433205939
+    second: output-onlinebitmaptools_41
+  - first:
+      213: -2874089835933163561
+    second: output-onlinebitmaptools_42
+  - first:
+      213: 4695284886846101633
+    second: output-onlinebitmaptools_43
+  - first:
+      213: -2490955012082339845
+    second: output-onlinebitmaptools_44
+  - first:
+      213: 732852042767658137
+    second: output-onlinebitmaptools_45
+  - first:
+      213: -1380970260140354394
+    second: output-onlinebitmaptools_46
+  - first:
+      213: 4108550528495714565
+    second: output-onlinebitmaptools_47
+  - first:
+      213: 6894284895663966147
+    second: output-onlinebitmaptools_48
+  - first:
+      213: -2834682250092848303
+    second: output-onlinebitmaptools_49
+  - first:
+      213: 1530852999574403671
+    second: output-onlinebitmaptools_50
+  - first:
+      213: 2773842397545044591
+    second: output-onlinebitmaptools_51
+  - first:
+      213: 2720131896145661516
+    second: output-onlinebitmaptools_52
+  - first:
+      213: 2290458348734879003
+    second: output-onlinebitmaptools_53
+  - first:
+      213: 1607653372857296263
+    second: output-onlinebitmaptools_54
+  - first:
+      213: 3200339743108736894
+    second: output-onlinebitmaptools_55
+  - first:
+      213: -8986357680225082530
+    second: output-onlinebitmaptools_56
+  - first:
+      213: -7454672618338410525
+    second: output-onlinebitmaptools_57
+  - first:
+      213: 140833303476794264
+    second: output-onlinebitmaptools_58
+  - first:
+      213: 1715089949241645782
+    second: output-onlinebitmaptools_59
+  - first:
+      213: 6522900964119561656
+    second: output-onlinebitmaptools_60
+  - first:
+      213: -2101436374555723457
+    second: output-onlinebitmaptools_61
+  - first:
+      213: -5392544425097453486
+    second: output-onlinebitmaptools_62
+  - first:
+      213: -4967633255314040200
+    second: output-onlinebitmaptools_63
+  - first:
+      213: 3045418450116200251
+    second: output-onlinebitmaptools_64
+  - first:
+      213: -6403487958121407956
+    second: output-onlinebitmaptools_65
+  - first:
+      213: 7777174279591389313
+    second: output-onlinebitmaptools_66
+  - first:
+      213: -7835183481171003715
+    second: output-onlinebitmaptools_67
+  - first:
+      213: -6827230390631960395
+    second: output-onlinebitmaptools_68
+  - first:
+      213: 2165057002202903605
+    second: output-onlinebitmaptools_69
+  - first:
+      213: 6465246493703151475
+    second: output-onlinebitmaptools_70
+  - first:
+      213: 4783700737866799399
+    second: output-onlinebitmaptools_71
+  - first:
+      213: -6519732348774082100
+    second: output-onlinebitmaptools_72
+  - first:
+      213: -7402016344312735159
+    second: output-onlinebitmaptools_73
+  - first:
+      213: 8379596929686653540
+    second: output-onlinebitmaptools_74
+  - first:
+      213: 5934512619775967043
+    second: output-onlinebitmaptools_75
+  - first:
+      213: -9112270833447488767
+    second: output-onlinebitmaptools_76
+  - first:
+      213: 5210344014974477575
+    second: output-onlinebitmaptools_77
+  - first:
+      213: 4354878428882871648
+    second: output-onlinebitmaptools_78
+  - first:
+      213: -4222005185070567736
+    second: output-onlinebitmaptools_79
+  - first:
+      213: -770334427358652537
+    second: output-onlinebitmaptools_80
+  - first:
+      213: 4618595814286332440
+    second: output-onlinebitmaptools_81
+  - first:
+      213: -2085118391616165258
+    second: output-onlinebitmaptools_82
+  - first:
+      213: 4399056182990142200
+    second: output-onlinebitmaptools_83
+  - first:
+      213: 2517527429978093147
+    second: output-onlinebitmaptools_84
+  - first:
+      213: -4655369336251839641
+    second: output-onlinebitmaptools_85
+  - first:
+      213: -4417043529131898124
+    second: output-onlinebitmaptools_86
+  - first:
+      213: -5113655900538816008
+    second: output-onlinebitmaptools_87
+  - first:
+      213: -1682908473584666875
+    second: output-onlinebitmaptools_88
+  - first:
+      213: -2852475071188026332
+    second: output-onlinebitmaptools_89
+  - first:
+      213: -6361548537317877445
+    second: output-onlinebitmaptools_90
+  - first:
+      213: -6195777576422462765
+    second: output-onlinebitmaptools_91
+  - first:
+      213: -4493308187283558070
+    second: output-onlinebitmaptools_92
+  - first:
+      213: 5659404716523259647
+    second: output-onlinebitmaptools_93
+  - first:
+      213: -6094911937765198592
+    second: output-onlinebitmaptools_94
+  - first:
+      213: -5494276269128014453
+    second: output-onlinebitmaptools_95
+  - first:
+      213: 1481120478030271764
+    second: output-onlinebitmaptools_96
+  - first:
+      213: -8287214320170086069
+    second: output-onlinebitmaptools_97
+  - first:
+      213: 5746096044020210200
+    second: output-onlinebitmaptools_98
+  - first:
+      213: -1896331028745690517
+    second: output-onlinebitmaptools_99
+  - first:
+      213: 2012924091935208460
+    second: output-onlinebitmaptools_100
+  - first:
+      213: -7768807390091376522
+    second: output-onlinebitmaptools_101
+  - first:
+      213: -4999335438504702287
+    second: output-onlinebitmaptools_102
+  - first:
+      213: 8822765156132088595
+    second: output-onlinebitmaptools_103
+  - first:
+      213: 1907341563509530997
+    second: output-onlinebitmaptools_104
+  - first:
+      213: -1239561389914655254
+    second: output-onlinebitmaptools_105
+  - first:
+      213: -5666038169387065907
+    second: output-onlinebitmaptools_106
+  - first:
+      213: -7248029328237016214
+    second: output-onlinebitmaptools_107
+  - first:
+      213: 8545554819712236244
+    second: output-onlinebitmaptools_108
+  - first:
+      213: -6419001485103154841
+    second: output-onlinebitmaptools_109
+  - first:
+      213: -5981683034931495931
+    second: output-onlinebitmaptools_110
+  - first:
+      213: -3109426050666212593
+    second: output-onlinebitmaptools_111
+  - first:
+      213: -1883769376526142369
+    second: output-onlinebitmaptools_112
+  - first:
+      213: -7325257990771666571
+    second: output-onlinebitmaptools_113
+  - first:
+      213: -6648618039970734268
+    second: output-onlinebitmaptools_114
+  - first:
+      213: -6984895590146879702
+    second: output-onlinebitmaptools_115
+  - first:
+      213: 1968866760419184933
+    second: output-onlinebitmaptools_116
+  - first:
+      213: -992169997643502655
+    second: output-onlinebitmaptools_117
+  - first:
+      213: -2803484708289218071
+    second: output-onlinebitmaptools_118
+  - first:
+      213: -7384201282202035008
+    second: output-onlinebitmaptools_119
+  - first:
+      213: -7007699172715093856
+    second: output-onlinebitmaptools_120
+  - first:
+      213: -2319112124750869565
+    second: output-onlinebitmaptools_121
+  - first:
+      213: 650940256462415116
+    second: output-onlinebitmaptools_122
+  - first:
+      213: 5950711368744854547
+    second: output-onlinebitmaptools_123
+  - first:
+      213: 6198614485586529323
+    second: output-onlinebitmaptools_124
+  - first:
+      213: 3185712431099313090
+    second: output-onlinebitmaptools_125
+  - first:
+      213: -8049402223271644588
+    second: output-onlinebitmaptools_126
+  - first:
+      213: 1304944786379071237
+    second: output-onlinebitmaptools_127
+  - first:
+      213: 3351454285168675241
+    second: output-onlinebitmaptools_128
+  - first:
+      213: 1077490863786092054
+    second: output-onlinebitmaptools_129
+  - first:
+      213: -3324226122220474575
+    second: output-onlinebitmaptools_130
+  - first:
+      213: -3126294819990889050
+    second: output-onlinebitmaptools_131
+  - first:
+      213: -5711511404297549624
+    second: output-onlinebitmaptools_132
+  - first:
+      213: 4845487115115894189
+    second: output-onlinebitmaptools_133
+  - first:
+      213: -2052971584945045094
+    second: output-onlinebitmaptools_134
+  - first:
+      213: -103657455909457959
+    second: output-onlinebitmaptools_135
+  - first:
+      213: -4936319479714431567
+    second: output-onlinebitmaptools_136
+  - first:
+      213: -1121610308120399908
+    second: output-onlinebitmaptools_137
+  - first:
+      213: 2803160680034456511
+    second: output-onlinebitmaptools_138
+  - first:
+      213: -1882365833547580723
+    second: output-onlinebitmaptools_139
+  - first:
+      213: -5677569638852667885
+    second: output-onlinebitmaptools_140
+  - first:
+      213: -5278669199378686004
+    second: output-onlinebitmaptools_141
+  - first:
+      213: 2838621448937443591
+    second: output-onlinebitmaptools_142
+  - first:
+      213: 1984072855770072767
+    second: output-onlinebitmaptools_143
+  - first:
+      213: 6112385657672708953
+    second: output-onlinebitmaptools_144
+  - first:
+      213: -5166977202705882254
+    second: output-onlinebitmaptools_145
+  - first:
+      213: 3712432304656792683
+    second: output-onlinebitmaptools_146
+  - first:
+      213: -2669256911318422501
+    second: output-onlinebitmaptools_147
+  - first:
+      213: 5731450903552278478
+    second: output-onlinebitmaptools_148
+  - first:
+      213: -2979856781577662838
+    second: output-onlinebitmaptools_149
+  - first:
+      213: 5926278988606041336
+    second: output-onlinebitmaptools_150
+  - first:
+      213: 7106772791448810110
+    second: output-onlinebitmaptools_151
+  - first:
+      213: 1062021376564154160
+    second: output-onlinebitmaptools_152
+  - first:
+      213: 3343674950083612826
+    second: output-onlinebitmaptools_153
+  - first:
+      213: -4885418762249840624
+    second: output-onlinebitmaptools_154
+  - first:
+      213: 6734104619985981755
+    second: output-onlinebitmaptools_155
+  - first:
+      213: -163450345148313733
+    second: output-onlinebitmaptools_156
+  - first:
+      213: -6316685198800457037
+    second: output-onlinebitmaptools_157
+  - first:
+      213: 6787447122755215303
+    second: output-onlinebitmaptools_158
+  - first:
+      213: -3451354678838890907
+    second: output-onlinebitmaptools_159
+  - first:
+      213: 3225906073132540061
+    second: output-onlinebitmaptools_160
+  - first:
+      213: -5892283461984000372
+    second: output-onlinebitmaptools_161
+  - first:
+      213: -6429352652843921105
+    second: output-onlinebitmaptools_162
+  - first:
+      213: 5180699813471578392
+    second: output-onlinebitmaptools_163
+  - first:
+      213: -7104184291857130795
+    second: output-onlinebitmaptools_164
+  - first:
+      213: 122105147228362075
+    second: output-onlinebitmaptools_165
+  - first:
+      213: -6805753925831505914
+    second: output-onlinebitmaptools_166
+  - first:
+      213: -1627177763050882035
+    second: output-onlinebitmaptools_167
+  - first:
+      213: -4491482002410836692
+    second: output-onlinebitmaptools_168
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 449
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e151a5bf09bd19160800000000000000
+      internalID: 7030641909040813342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 448
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbb0660c9cb65580800000000000000
+      internalID: -8838669840360096829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 450
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538f9e2114f6aeb30800000000000000
+      internalID: 4317385518068922421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 449
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffb94a39f9d566c0800000000000000
+      internalID: -4150671817104048141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 449
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8851a7fb07a803b00800000000000000
+      internalID: 806296550152738184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 452
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a134a64b3a6ba540800000000000000
+      internalID: 5020223012455330215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 451
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d44e242a7b65950800000000000000
+      internalID: 6437534624907546014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 464
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2444a57a2253b20800000000000000
+      internalID: 3113432819565871833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_8
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 448
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f491c43af94f059a0800000000000000
+      internalID: -6246223716686227121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 409
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f7e2c9302813770800000000000000
+      internalID: 8588788916389052293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 409
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b490b0fbb1e2b3fb0800000000000000
+      internalID: -4667085892135220917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_11
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 410
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68daca80653b0a130800000000000000
+      internalID: 3576055286226267526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_12
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 411
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc31d15edd943850800000000000000
+      internalID: 6355878552307580101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_13
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 410
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8734b09f20be6dae0800000000000000
+      internalID: -1524773025817607304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 409
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b993059ab283cce0800000000000000
+      internalID: -1386120522424411726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_15
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 409
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc454f636f98ed0b0800000000000000
+      internalID: -5701968387627526965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_16
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 432
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5dbbb739e0cc860800000000000000
+      internalID: 7551426701792368063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_17
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 417
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a069e7161ee67d0800000000000000
+      internalID: -2923151299265033677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 369
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6860b6fa8696660800000000000000
+      internalID: 7379544567047423729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_19
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 394
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dcb994a5ace0550800000000000000
+      internalID: 6129058632028638573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_20
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 391
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547f03819c7b0d1a0800000000000000
+      internalID: -6786722564125165755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_21
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 394
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5037aa2ddf9dfa970800000000000000
+      internalID: 8768466683697984261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 390
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12c6786d87fd55e0800000000000000
+      internalID: -1919105679474900449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_23
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 393
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df838372b597b6900800000000000000
+      internalID: 678769601256372477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_24
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 391
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2d2799c70775410800000000000000
+      internalID: 1465763884185080510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_25
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 391
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f57b1ba0443e2c0800000000000000
+      internalID: -4403601197916266610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_26
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 393
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0637567519f63fe30800000000000000
+      internalID: 4536091919719428960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_27
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 393
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e4c0c0604293180800000000000000
+      internalID: -9135230760753803721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_28
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 370
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f915132221280cbc0800000000000000
+      internalID: -3764866274087054945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_29
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 366
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b6b41e094c063d0800000000000000
+      internalID: -3215354007408383138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_30
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 366
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584d009ba3026cca0800000000000000
+      internalID: -5997070417213205371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_31
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 367
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8d6110fae8b9d90800000000000000
+      internalID: -7089916306076018433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_32
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 369
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d66bb6e53e43790800000000000000
+      internalID: -7551160680519930596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_33
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 368
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa33888427e673ca0800000000000000
+      internalID: -6037235338344647761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_34
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 369
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1321685d03249f900800000000000000
+      internalID: 718678393050501681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 337
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01156fef9e49ce860800000000000000
+      internalID: 7560581607174066448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_36
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 345
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bc3bee86469f2e0800000000000000
+      internalID: -2091530150092747969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_37
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 344
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcd2da0a3264f4a0800000000000000
+      internalID: -6560510755742753610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_38
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 342
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0de3cad3426d1a0800000000000000
+      internalID: -6785195941285670691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_39
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 345
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808f754c02b4e3fe0800000000000000
+      internalID: -1207445045983578104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_40
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 336
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9352d85e55eb757e0800000000000000
+      internalID: -1776742251841641159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_41
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 339
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4704bd183cf187a0800000000000000
+      internalID: -6376538279433205939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_42
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 338
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df94a4958e2d18d0800000000000000
+      internalID: -2874089835933163561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_43
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 346
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188d8b75ab0092140800000000000000
+      internalID: 4695284886846101633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_44
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 337
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff6a593d995e6dd0800000000000000
+      internalID: -2490955012082339845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 305
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ce512dc0d9b2a00800000000000000
+      internalID: 732852042767658137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_46
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 320
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a494f67ddec5dce0800000000000000
+      internalID: -1380970260140354394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_47
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 312
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5010bb800f0840930800000000000000
+      internalID: 4108550528495714565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_48
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 330
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7446ac59b6daf50800000000000000
+      internalID: 6894284895663966147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_49
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 314
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b5c18238f29a8d0800000000000000
+      internalID: -2834682250092848303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_50
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 313
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a39fa31beae3510800000000000000
+      internalID: 1530852999574403671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_51
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 307
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a1790d6faae7620800000000000000
+      internalID: 2773842397545044591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_52
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 305
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ec8f33c89dfb520800000000000000
+      internalID: 2720131896145661516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_53
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 319
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b159b299bb759cf10800000000000000
+      internalID: 2290458348734879003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_54
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 306
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7852e1399388f4610800000000000000
+      internalID: 1607653372857296263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_55
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 296
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77af8c4a04e96c20800000000000000
+      internalID: 3200339743108736894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_56
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 275
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53a4953d4b0a4380800000000000000
+      internalID: -8986357680225082530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_57
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 290
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef9b1b00ceab8890800000000000000
+      internalID: -7454672618338410525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_58
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 289
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8937742b42754f100800000000000000
+      internalID: 140833303476794264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_59
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 289
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da146ec8393dc710800000000000000
+      internalID: 1715089949241645782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_60
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 272
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b54667fddff58a50800000000000000
+      internalID: 6522900964119561656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_61
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 288
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39758050c236d2e0800000000000000
+      internalID: -2101436374555723457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_62
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 290
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250ad829a65d925b0800000000000000
+      internalID: -5392544425097453486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_63
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 286
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ad69abfdb6f0bb0800000000000000
+      internalID: -4967633255314040200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_64
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 274
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37c89fe1ff734a20800000000000000
+      internalID: 3045418450116200251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_65
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 274
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a9ea411ad3227a0800000000000000
+      internalID: -6403487958121407956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_66
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 273
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18869535dc21eeb60800000000000000
+      internalID: 7777174279591389313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_67
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 273
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db63bcee226d34390800000000000000
+      internalID: -7835183481171003715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_68
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 274
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b071a6c12ec041a0800000000000000
+      internalID: -6827230390631960395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_69
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 262
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534b6ce5fd3db0e10800000000000000
+      internalID: 2165057002202903605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_70
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 243
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f14828e6b29b950800000000000000
+      internalID: 6465246493703151475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_71
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 258
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7291358d97e136240800000000000000
+      internalID: 4783700737866799399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_72
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 259
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc992b8c8f14585a0800000000000000
+      internalID: -6519732348774082100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_73
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 257
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a9a973a51c64990800000000000000
+      internalID: -7402016344312735159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_74
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 256
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a4de2b20f4a4470800000000000000
+      internalID: 8379596929686653540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_75
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 241
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fb1d809cf9b5250800000000000000
+      internalID: 5934512619775967043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_76
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 240
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103b533b4f5ba8180800000000000000
+      internalID: -9112270833447488767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_77
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 241
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705e22aa64cde4840800000000000000
+      internalID: 5210344014974477575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_78
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 241
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0652391abd2af6c30800000000000000
+      internalID: 4354878428882871648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_79
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 241
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cee20047ac6865c0800000000000000
+      internalID: -4222005185070567736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_80
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 241
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78798037be83f45f0800000000000000
+      internalID: -770334427358652537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_81
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 239
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81294a73c6c881040800000000000000
+      internalID: 4618595814286332440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_82
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 200
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67aa519cedb2013e0800000000000000
+      internalID: -2085118391616165258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_83
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 200
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fafc1e8a469c0d30800000000000000
+      internalID: 4399056182990142200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_84
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 200
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b567520fbdd00f220800000000000000
+      internalID: 2517527429978093147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_85
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 200
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b867ef04ec46fb0800000000000000
+      internalID: -4655369336251839641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_86
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 200
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fac7a0105283b2c0800000000000000
+      internalID: -4417043529131898124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_87
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 216
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9bdc04d05a809b0800000000000000
+      internalID: -5113655900538816008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_88
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 217
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507bd72e8ab15a8e0800000000000000
+      internalID: -1682908473584666875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_89
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 215
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c3e2b2909f968d0800000000000000
+      internalID: -2852475071188026332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_90
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 201
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3913cb6f4d37b7a0800000000000000
+      internalID: -6361548537317877445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_91
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 201
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da2202fe1d240aa0800000000000000
+      internalID: -6195777576422462765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_92
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 189
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41fb9e920094a1c0800000000000000
+      internalID: -4493308187283558070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_93
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 187
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff60a88da9e3a8e40800000000000000
+      internalID: 5659404716523259647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_94
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 187
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005b73482e58a6ba0800000000000000
+      internalID: -6094911937765198592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_95
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 183
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8524c8d7d860c3b0800000000000000
+      internalID: -5494276269128014453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_96
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 181
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4151d8a3a3ffd8410800000000000000
+      internalID: 1481120478030271764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_97
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 182
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b415bbcbb76edfc80800000000000000
+      internalID: -8287214320170086069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_98
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 184
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a1a1d68eb3ebf40800000000000000
+      internalID: 5746096044020210200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_99
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 182
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62ef0ff9f0eea5e0800000000000000
+      internalID: -1896331028745690517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_100
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 182
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04bf93fbc75feb10800000000000000
+      internalID: 2012924091935208460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_101
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 185
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6788c21f6d6af2490800000000000000
+      internalID: -7768807390091376522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_102
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 163
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bec7e208eace9ab0800000000000000
+      internalID: -4999335438504702287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_103
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 162
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b62fb1a22c07a70800000000000000
+      internalID: 8822765156132088595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_104
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 158
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571e256eb0d387a10800000000000000
+      internalID: 1907341563509530997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_105
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 159
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5f8dcbb713ccee0800000000000000
+      internalID: -1239561389914655254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_106
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 162
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd11ed0e403e51b0800000000000000
+      internalID: -5666038169387065907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_107
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 153
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bc1d84ab3d96b90800000000000000
+      internalID: -7248029328237016214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_108
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 170
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da339d05d8e79670800000000000000
+      internalID: 8545554819712236244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_109
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 160
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769b8bb98202be6a0800000000000000
+      internalID: -6419001485103154841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_110
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 163
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c7de7d8faccfca0800000000000000
+      internalID: -5981683034931495931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_111
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 162
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03d1ba3b7919d4d0800000000000000
+      internalID: -3109426050666212593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_112
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 141
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5476619bb18bd5e0800000000000000
+      internalID: -1883769376526142369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_113
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 138
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57196f31ba4775a90800000000000000
+      internalID: -7325257990771666571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_114
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 139
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f5a485e1d5bb3a0800000000000000
+      internalID: -6648618039970734268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_115
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 147
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f4a14e77aa01f90800000000000000
+      internalID: -6984895590146879702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_116
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 138
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5211cd813e1d25b10800000000000000
+      internalID: 1968866760419184933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_117
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 137
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cba8a5d4aa1b32f0800000000000000
+      internalID: -992169997643502655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_118
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 136
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e97e25e2850819d0800000000000000
+      internalID: -2803484708289218071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_119
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 134
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc1d589e0c068990800000000000000
+      internalID: -7384201282202035008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_120
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 138
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0a4851bb6afbe90800000000000000
+      internalID: -7007699172715093856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_121
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 122
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb4ce94fcbd0dfd0800000000000000
+      internalID: -2319112124750869565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_122
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 104
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05a174e6ba980900800000000000000
+      internalID: 650940256462415116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_123
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 123
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3146aee267c259250800000000000000
+      internalID: 5950711368744854547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_124
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 111
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cc9f07807e50650800000000000000
+      internalID: 6198614485586529323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_125
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 107
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb7834d39ce53c20800000000000000
+      internalID: 3185712431099313090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_126
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 110
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45277a35357ca4090800000000000000
+      internalID: -8049402223271644588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_127
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 113
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f5f9b8e581c1210800000000000000
+      internalID: 1304944786379071237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_128
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 114
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a980746ae1c28e20800000000000000
+      internalID: 3351454285168675241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_129
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 110
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616e2b85b3404fe00800000000000000
+      internalID: 1077490863786092054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_130
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 110
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f69ff44f9fdd1d0800000000000000
+      internalID: -3324226122220474575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_131
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 91
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad9c4fcc6b2d94d0800000000000000
+      internalID: -3126294819990889050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_132
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 91
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8804083a2acb0b0800000000000000
+      internalID: -5711511404297549624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_133
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 89
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da51734dbd0ae3340800000000000000
+      internalID: 4845487115115894189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_134
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 91
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91416978316283e0800000000000000
+      internalID: -2052971584945045094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_135
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 85
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df2232d71cbf8ef0800000000000000
+      internalID: -103657455909457959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_136
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 97
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdb7c1469bae7bb0800000000000000
+      internalID: -4936319479714431567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_137
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 88
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf21180e5d3f60f0800000000000000
+      internalID: -1121610308120399908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_138
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 83
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3dbc569c3d6e620800000000000000
+      internalID: 2803160680034456511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_139
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 85
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca70126f3e70e5e0800000000000000
+      internalID: -1882365833547580723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_140
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 86
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316d4a89e783531b0800000000000000
+      internalID: -5677569638852667885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_141
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 67
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfdc3ca4566eb6b0800000000000000
+      internalID: -5278669199378686004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_142
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 65
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70198bb0b2fc46720800000000000000
+      internalID: 2838621448937443591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_143
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 65
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb68ba010c7d88b10800000000000000
+      internalID: 1984072855770072767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_144
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 65
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95336cfee5e83d450800000000000000
+      internalID: 6112385657672708953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_145
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 64
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273ac262c953b48b0800000000000000
+      internalID: -5166977202705882254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_146
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 68
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cb0c30385358330800000000000000
+      internalID: 3712432304656792683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_147
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 68
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ceb924bf4e4fad0800000000000000
+      internalID: -2669256911318422501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_148
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 59
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf33d1fa343a8f40800000000000000
+      internalID: 5731450903552278478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_149
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 71
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e468c8b0c65a6d0800000000000000
+      internalID: -2979856781577662838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_150
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 63
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc69b3675f5e3250800000000000000
+      internalID: 5926278988606041336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_151
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 39
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72b7b5533450a260800000000000000
+      internalID: 7106772791448810110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_152
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 41
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f4afda0de0dbe00800000000000000
+      internalID: 1062021376564154160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_153
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 40
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a901b1cc6ae176e20800000000000000
+      internalID: 3343674950083612826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_154
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 41
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018d1111581833cb0800000000000000
+      internalID: -4885418762249840624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_155
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 43
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31d49a1978547d50800000000000000
+      internalID: 6734104619985981755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_156
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 24
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f050fe6ce4bbdf0800000000000000
+      internalID: -163450345148313733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_157
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 47
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2f7876740a658a0800000000000000
+      internalID: -6316685198800457037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_158
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 17
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf529b523bd13e50800000000000000
+      internalID: 6787447122755215303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_159
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 17
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56eece5a4335a10d0800000000000000
+      internalID: -3451354678838890907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_160
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 18
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9027df5b78b4cc20800000000000000
+      internalID: 3225906073132540061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_161
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86e884f8676a3ea0800000000000000
+      internalID: -5892283461984000372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_162
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 17
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21d58f83d956c6a0800000000000000
+      internalID: -6429352652843921105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_163
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 17
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819e7e5280b85e740800000000000000
+      internalID: 5180699813471578392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_164
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 24
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da12f0b60ed86d90800000000000000
+      internalID: -7104184291857130795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_165
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b551bc50cfdc1b100800000000000000
+      internalID: 122105147228362075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_166
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 608c716ecda1d81a0800000000000000
+      internalID: -6805753925831505914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_167
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 8
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cffe6127a1b69e0800000000000000
+      internalID: -1627177763050882035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinebitmaptools_168
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ded3b6aec0ba1c0800000000000000
+      internalID: -4491482002410836692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6fd570f6c2edfb44d9029abb768a08c8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
