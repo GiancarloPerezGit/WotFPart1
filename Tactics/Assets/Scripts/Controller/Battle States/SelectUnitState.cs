@@ -2,18 +2,22 @@
 using System.Collections;
 public class SelectUnitState : BattleState
 {
-    protected override void OnMove(object sender, InfoEventArgs<Point> e)
+    public override void Enter()
     {
-        SelectTile(e.info + pos);
+        base.Enter();
+        StartCoroutine("ChangeCurrentUnit");
     }
-
-    protected override void OnFire(object sender, InfoEventArgs<int> e)
+    public override void Exit()
     {
-        GameObject content = owner.currentTile.content;
-        if (content != null)
-        {
-            owner.currentUnit = content.GetComponent<Unit>();
-            owner.ChangeState<MoveTargetState>();
-        }
+        base.Exit();
+        statPanelController.HidePrimary();
+    }
+    IEnumerator ChangeCurrentUnit()
+    {
+        owner.round.MoveNext();
+        SelectTile(turn.actor.tile.pos);
+        RefreshPrimaryStatPanel(pos);
+        yield return null;
+        owner.ChangeState<CommandSelectionState>();
     }
 }

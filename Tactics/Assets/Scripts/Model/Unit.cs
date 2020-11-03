@@ -24,6 +24,33 @@ public class Unit : MonoBehaviour
     public void Match()
     {
         transform.localPosition = tile.center;
-        transform.localEulerAngles = dir.ToEuler();
+        if (dir == Directions.North)
+        {
+            nSprite.SetActive(true);
+            eSprite.SetActive(false);
+            sSprite.SetActive(false);
+            wSprite.SetActive(false);
+        }
+        else if (dir == Directions.East)
+        {
+            nSprite.SetActive(false);
+            eSprite.SetActive(true);
+            sSprite.SetActive(false);
+            wSprite.SetActive(false);
+        }
+        else if (dir == Directions.South)
+        {
+            nSprite.SetActive(false);
+            eSprite.SetActive(false);
+            sSprite.SetActive(true);
+            wSprite.SetActive(false);
+        }
+        else if (dir == Directions.West)
+        {
+            nSprite.SetActive(false);
+            eSprite.SetActive(false);
+            sSprite.SetActive(false);
+            wSprite.SetActive(true);
+        }
     }
 }

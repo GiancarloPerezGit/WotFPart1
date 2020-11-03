@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Editor\AssetCreator.cs" />
     <Compile Include="Assets\Editor\BoardCreatorInspector.cs" />
+    <Compile Include="Assets\Editor\JobParser.cs" />
     <Compile Include="Assets\Editor\ScriptableObjectUtility.cs" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>D:/UnityGit/WotFPart1/Tactics/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>

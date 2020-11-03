@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+
 public class CutSceneState : BattleState
 {
     ConversationController conversationController;
-    ConversationData data;
+    public static ConversationData data;
+    public static bool fade = false;
     protected override void Awake()
     {
         base.Awake();
@@ -39,6 +41,10 @@ public class CutSceneState : BattleState
     }
     void OnCompleteConversation(object sender, System.EventArgs e)
     {
+        if(fade)
+        {
+            FadeToBlack.fade = fade;
+        }
         owner.ChangeState<SelectUnitState>();
     }
 }

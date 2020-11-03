@@ -16,4 +16,31 @@ public static class DirectionsExtensions
     {
         return new Vector3(0, (int)d * 90, 0);
     }
+
+    public static Directions GetDirection(this Point p)
+    {
+        if (p.y > 0)
+            return Directions.North;
+        if (p.x > 0)
+            return Directions.East;
+        if (p.y < 0)
+            return Directions.South;
+        return Directions.West;
+    }
+
+    public static Point GetNormal(this Directions dir)
+    {
+        switch (dir)
+        {
+            case Directions.North:
+                return new Point(0, 1);
+            case Directions.East:
+                return new Point(1, 0);
+            case Directions.South:
+                return new Point(0, -1);
+            default: // Directions.West:
+                return new Point(-1, 0);
+        }
+    }
+
 }

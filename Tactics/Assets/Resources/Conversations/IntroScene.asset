@@ -14,20 +14,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   list:
   - messages:
-    - Hello
-    - World
-    - I will kill you now
+    - Day 3 - Abilities (Kind of)
+    speaker: {fileID: 7806115809414657024, guid: 45df9de2ce8581446a62526ddc1a85fb,
+      type: 3}
+    anchor: 4
+  - messages:
+    - Hello!
+    - I am Red Mage Rez!
+    - You join me today at the Knight's training area.
+    - And I shall be showing you all so-
     speaker: {fileID: 4816030156666558535, guid: 45df9de2ce8581446a62526ddc1a85fb,
       type: 3}
-    anchor: 2
+    anchor: 0
   - messages:
-    - Hi?
-    - Okay...
+    - Eh who the hell are you?
+    - You aren't one of my Knights.
     speaker: {fileID: 7471620451975838437, guid: 45df9de2ce8581446a62526ddc1a85fb,
+      type: 3}
+    anchor: 8
+  - messages:
+    - Ah! Perfect, we shall have Sergeant Gibbs here help me demonstrate.
+    - Lets start with a Line Attack
+    speaker: {fileID: 4816030156666558535, guid: 45df9de2ce8581446a62526ddc1a85fb,
       type: 3}
     anchor: 0
   - messages:
-    - Shutting down
+    - Huh?
     speaker: {fileID: 7471620451975838437, guid: 45df9de2ce8581446a62526ddc1a85fb,
       type: 3}
-    anchor: 0
+    anchor: 8
