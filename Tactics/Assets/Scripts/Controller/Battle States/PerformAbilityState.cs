@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+
 public class PerformAbilityState : BattleState
 {
     public override void Enter()
@@ -15,8 +16,7 @@ public class PerformAbilityState : BattleState
     {
         // TODO play animations, etc
         yield return null;
-        // TODO apply ability effect, etc
-        TemporaryAttackExample();
+        ApplyAbility();
 
         if (turn.hasUnitMoved)
             owner.ChangeState<EndFacingState>();
@@ -24,18 +24,8 @@ public class PerformAbilityState : BattleState
             owner.ChangeState<CommandSelectionState>();
     }
 
-    void TemporaryAttackExample()
+    void ApplyAbility()
     {
-        for (int i = 0; i < turn.targets.Count; ++i)
-        {
-            GameObject obj = turn.targets[i].content;
-            Stats stats = obj != null ? obj.GetComponentInChildren<Stats>() : null;
-            if (stats != null)
-            {
-                stats[StatTypes.HP] -= 50;
-                if (stats[StatTypes.HP] <= 0)
-                    Debug.Log("KO'd Uni!", obj);
-            }
-        }
+        turn.ability.Perform(turn.targets);
     }
 }

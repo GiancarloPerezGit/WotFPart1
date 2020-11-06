@@ -1,61 +1,60 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+
 public class CategorySelectionState : BaseAbilityMenuState
 {
+    public override void Enter()
+    {
+        base.Enter();
+        statPanelController.ShowPrimary(turn.actor.gameObject);
+    }
+
+    public override void Exit()
+    {
+        base.Exit();
+        statPanelController.HidePrimary();
+    }
+
     protected override void LoadMenu()
     {
         if (menuOptions == null)
-        {
-            menuTitle = "Action";
-            menuOptions = new List<string>(3);
-            menuOptions.Add("Attack");
-            menuOptions.Add("White Magic");
-            menuOptions.Add("Black Magic");
-        }
+            menuOptions = new List<string>();
+        else
+            menuOptions.Clear();
+
+        menuTitle = "Action";
+        menuOptions.Add("Attack");
+
+        AbilityCatalog catalog = turn.actor.GetComponentInChildren<AbilityCatalog>();
+        for (int i = 0; i < catalog.CategoryCount(); ++i)
+            menuOptions.Add(catalog.GetCategory(i).name);
 
         abilityMenuPanelController.Show(menuTitle, menuOptions);
     }
+
     protected override void Confirm()
     {
-        switch (abilityMenuPanelController.selection)
-        {
-            case 0:
-                Attack();
-                break;
-            case 1:
-                SetCategory(0);
-                break;
-            case 2:
-                SetCategory(1);
-                break;
-        }
+        if (abilityMenuPanelController.selection == 0)
+            Attack();
+        else
+            SetCategory(abilityMenuPanelController.selection - 1);
     }
 
     protected override void Cancel()
     {
         owner.ChangeState<CommandSelectionState>();
     }
+
     void Attack()
     {
-        //turn.ability = turn.actor.GetComponentInChildren<AbilityRange>().gameObject;
-        turn.ability = turn.actor.GetComponentInChildren<LineAbilityRange>().gameObject;
+        turn.ability = turn.actor.GetComponentInChildren<Ability>();
         owner.ChangeState<AbilityTargetState>();
     }
+
     void SetCategory(int index)
     {
         ActionSelectionState.category = index;
         owner.ChangeState<ActionSelectionState>();
-    }
-
-    public override void Enter()
-    {
-        base.Enter();
-        statPanelController.ShowPrimary(turn.actor.gameObject);
-    }
-    public override void Exit()
-    {
-        base.Exit();
-        statPanelController.HidePrimary();
     }
 }

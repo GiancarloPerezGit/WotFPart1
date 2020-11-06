@@ -2,20 +2,26 @@
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+
 public class AbilityMenuPanelController : MonoBehaviour
 {
+    #region Constants
     const string ShowKey = "Show";
     const string HideKey = "Hide";
     const string EntryPoolKey = "AbilityMenuPanel.Entry";
     const int MenuCount = 4;
+    #endregion
 
+    #region Fields / Properties
     [SerializeField] GameObject entryPrefab;
     [SerializeField] Text titleLabel;
     [SerializeField] Panel panel;
     [SerializeField] GameObject canvas;
     List<AbilityMenuEntry> menuEntries = new List<AbilityMenuEntry>(MenuCount);
     public int selection { get; private set; }
+    #endregion
 
+    #region MonoBehaviour
     void Awake()
     {
         GameObjectPoolController.AddEntry(EntryPoolKey, entryPrefab, MenuCount, int.MaxValue);
@@ -26,15 +32,69 @@ public class AbilityMenuPanelController : MonoBehaviour
         panel.SetPosition(HideKey, false);
         canvas.SetActive(false);
     }
+    #endregion
 
-    Tweener TogglePos(string pos)
+    #region Public
+    public void Show(string title, List<string> options)
     {
-        Tweener t = panel.SetPosition(pos, true);
-        t.easingControl.duration = 0.5f;
-        t.easingControl.equation = EasingEquations.EaseOutQuad;
-        return t;
+        canvas.SetActive(true);
+        Clear();
+        titleLabel.text = title;
+        for (int i = 0; i < options.Count; ++i)
+        {
+            AbilityMenuEntry entry = Dequeue();
+            entry.Title = options[i];
+            menuEntries.Add(entry);
+        }
+        SetSelection(0);
+        TogglePos(ShowKey);
     }
 
+    public void Hide()
+    {
+        Tweener t = TogglePos(HideKey);
+        t.completedEvent += delegate (object sender, System.EventArgs e)
+        {
+            if (panel.CurrentPosition == panel[HideKey])
+            {
+                Clear();
+                canvas.SetActive(false);
+            }
+        };
+    }
+
+    public void SetLocked(int index, bool value)
+    {
+        if (index < 0 || index >= menuEntries.Count)
+            return;
+
+        menuEntries[index].IsLocked = value;
+        if (value && selection == index)
+            Next();
+    }
+
+    public void Next()
+    {
+        for (int i = selection + 1; i < selection + menuEntries.Count; ++i)
+        {
+            int index = i % menuEntries.Count;
+            if (SetSelection(index))
+                break;
+        }
+    }
+
+    public void Previous()
+    {
+        for (int i = selection - 1 + menuEntries.Count; i > selection; --i)
+        {
+            int index = i % menuEntries.Count;
+            if (SetSelection(index))
+                break;
+        }
+    }
+    #endregion
+
+    #region Private
     AbilityMenuEntry Dequeue()
     {
         Poolable p = GameObjectPoolController.Dequeue(EntryPoolKey);
@@ -77,60 +137,12 @@ public class AbilityMenuPanelController : MonoBehaviour
         return true;
     }
 
-    public void Next()
+    Tweener TogglePos(string pos)
     {
-        for (int i = selection + 1; i < selection + menuEntries.Count; ++i)
-        {
-            int index = i % menuEntries.Count;
-            if (SetSelection(index))
-                break;
-        }
+        Tweener t = panel.SetPosition(pos, true);
+        t.duration = 0.5f;
+        t.equation = EasingEquations.EaseOutQuad;
+        return t;
     }
-    public void Previous()
-    {
-        for (int i = selection - 1 + menuEntries.Count; i > selection; --i)
-        {
-            int index = i % menuEntries.Count;
-            if (SetSelection(index))
-                break;
-        }
-    }
-
-    public void Show(string title, List<string> options)
-    {
-        canvas.SetActive(true);
-        Clear();
-        titleLabel.text = title;
-        for (int i = 0; i < options.Count; ++i)
-        {
-            AbilityMenuEntry entry = Dequeue();
-            entry.Title = options[i];
-            menuEntries.Add(entry);
-        }
-        SetSelection(0);
-        TogglePos(ShowKey);
-    }
-
-    public void SetLocked(int index, bool value)
-    {
-        if (index < 0 || index >= menuEntries.Count)
-            return;
-        menuEntries[index].IsLocked = value;
-        if (value && selection == index)
-            Next();
-    }
-
-    public void Hide()
-    {
-        Tweener t = TogglePos(HideKey);
-        t.easingControl.completedEvent += delegate (object sender, System.EventArgs e)
-        {
-            if (panel.CurrentPosition == panel[HideKey])
-            {
-                Clear();
-                canvas.SetActive(false);
-            }
-        };
-    }
-
+    #endregion
 }

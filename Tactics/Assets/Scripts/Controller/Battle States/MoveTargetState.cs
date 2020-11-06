@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+
 public class MoveTargetState : BattleState
 {
     List<Tile> tiles;
@@ -8,7 +9,7 @@ public class MoveTargetState : BattleState
     public override void Enter()
     {
         base.Enter();
-        Movement mover = owner.turn.actor.GetComponent<Movement>();
+        Movement mover = turn.actor.GetComponent<Movement>();
         tiles = mover.GetTilesInRange(board);
         board.SelectTiles(tiles);
         RefreshPrimaryStatPanel(pos);

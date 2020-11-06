@@ -1,88 +1,67 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+
 public class ActionSelectionState : BaseAbilityMenuState
 {
     public static int category;
     string[] whiteMagicOptions = new string[] { "Cure", "Raise", "Holy" };
     string[] blackMagicOptions = new string[] { "Fire", "Ice", "Lightning" };
-    protected override void LoadMenu()
-    {
-        if (menuOptions == null)
-            menuOptions = new List<string>(3);
-        if (category == 0)
-        {
-            menuTitle = "White Magic";
-            SetOptions(whiteMagicOptions);
-        }
-        else
-        {
-            menuTitle = "Black Magic";
-            SetOptions(blackMagicOptions);
-        }
-        abilityMenuPanelController.Show(menuTitle, menuOptions);
-    }
-    protected override void Confirm()
-    {
-        turn.hasUnitActed = true;
-        if (turn.hasUnitMoved)
-            turn.lockMove = true;
-        //owner.ChangeState<CommandSelectionState>();
-        print(category);
-        switch (abilityMenuPanelController.selection)
-        {
-            case 0:
-                fire();
-                break;
-            case 1:
-                if(category == 1)
-                {
-                    turn.ability = turn.actor.GetComponentInChildren<LineAbilityRange>().gameObject;
-                    AbilityTargetState.test = 1;
-                    owner.ChangeState<AbilityTargetState>();
-                }
-                break;
-            case 2:
-                if (category == 1)
-                {
-                    turn.ability = turn.actor.GetComponentInChildren<InfiniteAbilityRange>().gameObject;
-                    AbilityTargetState.test = 3;
-                    owner.ChangeState<AbilityTargetState>();
-                }
-                break;
-        }
-        //owner.ChangeState<CommandSelectionState>();
-    }
-    protected override void Cancel()
-    {
-        owner.ChangeState<CategorySelectionState>();
-    }
-    void SetOptions(string[] options)
-    {
-        menuOptions.Clear();
-        for (int i = 0; i < options.Length; ++i)
-            menuOptions.Add(options[i]);
-    }
+    AbilityCatalog catalog;
 
     public override void Enter()
     {
         base.Enter();
         statPanelController.ShowPrimary(turn.actor.gameObject);
     }
+
     public override void Exit()
     {
         base.Exit();
         statPanelController.HidePrimary();
     }
 
-    void fire()
+    protected override void LoadMenu()
     {
-        if (category == 1)
+        catalog = turn.actor.GetComponentInChildren<AbilityCatalog>();
+        GameObject container = catalog.GetCategory(category);
+        menuTitle = container.name;
+        int count = catalog.AbilityCount(container);
+        if (menuOptions == null)
+            menuOptions = new List<string>(count);
+        else
+            menuOptions.Clear();
+        bool[] locks = new bool[count];
+        for (int i = 0; i < count; ++i)
         {
-            print("TEST");
-            turn.ability = turn.actor.GetComponentInChildren<ConeAbilityRange>().gameObject;
-            AbilityTargetState.test = 2;
-            owner.ChangeState<AbilityTargetState>();
+            Ability ability = catalog.GetAbility(category, i);
+            AbilityMagicCost cost = ability.GetComponent<AbilityMagicCost>();
+            if (cost)
+                menuOptions.Add(string.Format("{0}: {1}", ability.name, cost.amount));
+            else
+                menuOptions.Add(ability.name);
+            locks[i] = !ability.CanPerform();
         }
+        abilityMenuPanelController.Show(menuTitle, menuOptions);
+        for (int i = 0; i < count; ++i)
+            abilityMenuPanelController.SetLocked(i, locks[i]);
+    }
+
+    protected override void Confirm()
+    {
+        turn.ability = catalog.GetAbility(category, abilityMenuPanelController.selection);
+        owner.ChangeState<AbilityTargetState>();
+    }
+
+    protected override void Cancel()
+    {
+        owner.ChangeState<CategorySelectionState>();
+    }
+
+    void SetOptions(string[] options)
+    {
+        menuOptions.Clear();
+        for (int i = 0; i < options.Length; ++i)
+            menuOptions.Add(options[i]);
     }
 }
