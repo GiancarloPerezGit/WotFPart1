@@ -11,7 +11,7 @@ public class BoardCreator : MonoBehaviour
 
     [SerializeField] int width = 10;
     [SerializeField] int depth = 10;
-    [SerializeField] int height = 8;
+    [SerializeField] int height = 14;
 
     Dictionary<Point, Tile> tiles = new Dictionary<Point, Tile>();
 
@@ -104,6 +104,15 @@ public class BoardCreator : MonoBehaviour
         }
     }
 
+    void RotateSingle(Point p)
+    {
+        if (!tiles.ContainsKey(p))
+            return;
+
+        Tile t = tiles[p];
+        t.transform.Rotate(0, 90, 0);
+    }
+
     public void GrowArea()
     {
         Rect r = RandomRect();
@@ -124,6 +133,15 @@ public class BoardCreator : MonoBehaviour
         ShrinkSingle(pos);
     }
 
+    public void Rotate()
+    {
+        RotateSingle(pos);
+    }
+
+    public void CreateTile()
+    {
+        GetOrCreate(pos);
+    }
 
     public void UpdateMarker()
     {
@@ -146,8 +164,14 @@ public class BoardCreator : MonoBehaviour
 
         LevelData board = ScriptableObject.CreateInstance<LevelData>();
         board.tiles = new List<Vector3>(tiles.Count);
+        board.slope = new List<bool>(tiles.Count);
+        board.rotation = new List<Vector3>(tiles.Count);
         foreach (Tile t in tiles.Values)
+        {
             board.tiles.Add(new Vector3(t.pos.x, t.height, t.pos.y));
+            board.slope.Add(t.slope);
+            board.rotation.Add(t.transform.rotation.eulerAngles);
+        }
 
         string fileName = string.Format("Assets/Resources/Levels/{1}.asset", filePath, name);
         AssetDatabase.CreateAsset(board, fileName);
@@ -158,12 +182,21 @@ public class BoardCreator : MonoBehaviour
         Clear();
         if (levelData == null)
             return;
-        foreach (Vector3 v in levelData.tiles)
+        int index = 0;
+        foreach (Vector3 v in levelData.rotation)
         {
             Tile t = Create();
-            t.Load(v);
+            t.Load(levelData.tiles[index], levelData.slope[index], v);
             tiles.Add(t.pos, t);
+            index += 1;
         }
+
+        //foreach (Vector3 v in levelData.tiles)
+        //{
+        //    Tile t = Create();
+        //    t.Load(v, levelData.slope);
+        //    tiles.Add(t.pos, t);
+        //}
     }
 
     void CreateSaveDirectory()

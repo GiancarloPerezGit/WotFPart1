@@ -25,7 +25,7 @@ public class Board : MonoBehaviour
         {
             GameObject instance = Instantiate(tilePrefab) as GameObject;
             Tile t = instance.GetComponent<Tile>();
-            t.Load(data.tiles[i]);
+            t.Load(data.tiles[i], data.slope[i], data.rotation[i]);
             tiles.Add(t.pos, t);
             _min.x = Mathf.Min(_min.x, t.pos.x);
             _min.y = Mathf.Min(_min.y, t.pos.y);
@@ -76,12 +76,15 @@ public class Board : MonoBehaviour
     public void SelectTiles(List<Tile> tiles)
     {
         for (int i = tiles.Count - 1; i >= 0; --i)
-            tiles[i].GetComponent<Renderer>().material.SetColor("_Color", selectedTileColor);
+            //tiles[i].GetComponent<Renderer>().material.SetColor("_Color", selectedTileColor);
+            //tiles[i].GetComponent<Renderer>().material.SetColor("_Color", selectedTileColor);
+            tiles[i].transform.GetChild(0).GetComponent<MeshRenderer>().enabled = true;
     }
     public void DeSelectTiles(List<Tile> tiles)
     {
         for (int i = tiles.Count - 1; i >= 0; --i)
-            tiles[i].GetComponent<Renderer>().material.SetColor("_Color", defaultTileColor);
+            //tiles[i].GetComponent<Renderer>().material.SetColor("_Color", defaultTileColor);
+            tiles[i].transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
     }
 
     void SwapReference(ref Queue<Tile> a, ref Queue<Tile> b)

@@ -15,12 +15,17 @@ public class Tile : MonoBehaviour
 
     //Object above tile
     public GameObject content;
-    
+
+    public Directions dir;
+
+    public bool slope = false;
     //Previous tile
     [HideInInspector] public Tile prev;
 
     //Distance traveled so far
     [HideInInspector] public int distance;
+
+    public Vector3 rotation;
 
     //Center of the tile. For placing models on.
     public Vector3 center
@@ -36,6 +41,7 @@ public class Tile : MonoBehaviour
     {
         transform.localPosition = new Vector3(pos.x, height * stepHeight / 2f, pos.y);
         transform.localScale = new Vector3(1, height * stepHeight, 1);
+        transform.localRotation = Quaternion.Euler(rotation);
     }
 
     //Following methods allow the board creator to create a unique topography
@@ -63,20 +69,17 @@ public class Tile : MonoBehaviour
     }
 
     //Set the xyz using a Unity Vector
-    public void Load(Vector3 v)
+    public void Load(Vector3 v, bool b, Vector3 q)
     {
+        
+        slope = b;
+        rotation = q;
+        if (slope)
+        {
+            DestroyImmediate(transform.GetChild(0).gameObject);
+        }
         Load(new Point((int)v.x, (int)v.z), (int)v.y);
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }

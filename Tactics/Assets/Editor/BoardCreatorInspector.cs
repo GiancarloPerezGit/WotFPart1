@@ -31,6 +31,10 @@ public class BoardCreatorInspector : Editor
             current.Save();
         if (GUILayout.Button("Load"))
             current.Load();
+        if (GUILayout.Button("Rotate"))
+            current.Rotate();
+        if (GUILayout.Button("Create"))
+            current.CreateTile();
         if (GUI.changed)
             current.UpdateMarker();
     }

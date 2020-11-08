@@ -43,34 +43,34 @@ public abstract class Movement : MonoBehaviour
 
     protected virtual IEnumerator Turn(Directions dir)
     {
-        if (dir == Directions.North)
-        {
-            unit.nSprite.SetActive(true);
-            unit.eSprite.SetActive(false);
-            unit.sSprite.SetActive(false);
-            unit.wSprite.SetActive(false);
-        }
-        else if (dir == Directions.East)
-        {
-            unit.nSprite.SetActive(false);
-            unit.eSprite.SetActive(true);
-            unit.sSprite.SetActive(false);
-            unit.wSprite.SetActive(false);
-        }
-        else if (dir == Directions.South)
-        {
-            unit.nSprite.SetActive(false);
-            unit.eSprite.SetActive(false);
-            unit.sSprite.SetActive(true);
-            unit.wSprite.SetActive(false);
-        }
-        else if (dir == Directions.West)
-        {
-            unit.nSprite.SetActive(false);
-            unit.eSprite.SetActive(false);
-            unit.sSprite.SetActive(false);
-            unit.wSprite.SetActive(true);
-        }
+        //if (dir == Directions.North)
+        //{
+        //    unit.nSprite.SetActive(true);
+        //    unit.eSprite.SetActive(false);
+        //    unit.sSprite.SetActive(false);
+        //    unit.wSprite.SetActive(false);
+        //}
+        //else if (dir == Directions.East)
+        //{
+        //    unit.nSprite.SetActive(false);
+        //    unit.eSprite.SetActive(true);
+        //    unit.sSprite.SetActive(false);
+        //    unit.wSprite.SetActive(false);
+        //}
+        //else if (dir == Directions.South)
+        //{
+        //    unit.nSprite.SetActive(false);
+        //    unit.eSprite.SetActive(false);
+        //    unit.sSprite.SetActive(true);
+        //    unit.wSprite.SetActive(false);
+        //}
+        //else if (dir == Directions.West)
+        //{
+        //    unit.nSprite.SetActive(false);
+        //    unit.eSprite.SetActive(false);
+        //    unit.sSprite.SetActive(false);
+        //    unit.wSprite.SetActive(true);
+        //}
         
         //TransformLocalEulerTweener t = (TransformLocalEulerTweener)transform.RotateToLocal(dir.ToEuler(), 0.25f, EasingEquations.EaseInOutQuad);
 
@@ -81,7 +81,7 @@ public abstract class Movement : MonoBehaviour
         //else if (Mathf.Approximately(t.startValue.y, 270) && Mathf.Approximately(t.endValue.y, 0))
         //    t.endValue = new Vector3(t.startValue.x, 360f, t.startValue.z);
         unit.dir = dir;
-
+        unit.Turn(); 
         //while (t != null)
         yield return null;
     }
