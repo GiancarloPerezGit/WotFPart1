@@ -46,7 +46,20 @@ public class BoardCreator : MonoBehaviour
         instance.transform.parent = transform;
         return instance.GetComponent<Tile>();
     }
+
     Tile GetOrCreate(Point p)
+    {
+        if (tiles.ContainsKey(p))
+            return tiles[p];
+
+        Tile t = Create();
+        t.Load(p, 0);
+        tiles.Add(p, t);
+
+        return t;
+    }
+
+    Tile OCreate(Point p, float h)
     {
         if (tiles.ContainsKey(p))
             return tiles[p];
@@ -60,9 +73,19 @@ public class BoardCreator : MonoBehaviour
 
     void GrowSingle(Point p)
     {
-        Tile t = GetOrCreate(p);
-        if (t.height < height)
-            t.Grow();
+        Tile t;
+        if (tiles.ContainsKey(p))
+        {
+            t = tiles[p];
+            if (t.height < height)
+                t.Grow();
+        }
+        else
+        {
+            t = GetOrCreate(p);
+
+        }
+
     }
 
     void GrowRect(Rect rect)
@@ -166,11 +189,13 @@ public class BoardCreator : MonoBehaviour
         board.tiles = new List<Vector3>(tiles.Count);
         board.slope = new List<bool>(tiles.Count);
         board.rotation = new List<Vector3>(tiles.Count);
+        board.height = new List<float>(tiles.Count);
         foreach (Tile t in tiles.Values)
         {
             board.tiles.Add(new Vector3(t.pos.x, t.height, t.pos.y));
             board.slope.Add(t.slope);
             board.rotation.Add(t.transform.rotation.eulerAngles);
+            board.height.Add(t.transform.position.y);
         }
 
         string fileName = string.Format("Assets/Resources/Levels/{1}.asset", filePath, name);

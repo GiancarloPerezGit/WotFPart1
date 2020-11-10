@@ -131,6 +131,7 @@
     <Compile Include="Assets\Scripts\Factory\UnitFactory.cs" />
     <Compile Include="Assets\Scripts\Factory\UnitRecipe.cs" />
     <Compile Include="Assets\Scripts\Model\ConversationData.cs" />
+    <Compile Include="Assets\Scripts\Model\FullCoord.cs" />
     <Compile Include="Assets\Scripts\Model\LevelData.cs" />
     <Compile Include="Assets\Scripts\Model\Point.cs" />
     <Compile Include="Assets\Scripts\Model\SpeakerData.cs" />

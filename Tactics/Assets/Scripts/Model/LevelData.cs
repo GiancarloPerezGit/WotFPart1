@@ -8,4 +8,5 @@ public class LevelData : ScriptableObject
     public List<Vector3> tiles;
     public List<Vector3> rotation;
     public List<bool> slope;
+    public List<float> height;
 }

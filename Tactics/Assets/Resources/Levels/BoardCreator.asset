@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: BoardCreator
   m_EditorClassIdentifier: 
   tiles:
-  - {x: 2, y: 2, z: 10}
-  - {x: 2, y: 2, z: 9}
-  - {x: 1, y: 2, z: 9}
-  - {x: 0, y: 2, z: 9}
-  - {x: 0, y: 1, z: 10}
-  - {x: 1, y: 1, z: 10}
-  - {x: 3, y: 7, z: 10}
+  - {x: 2, y: 3, z: 10}
+  - {x: 2, y: 3, z: 9}
+  - {x: 1, y: 3, z: 9}
+  - {x: 0, y: 3, z: 9}
+  - {x: 0, y: 2, z: 10}
+  - {x: 1, y: 2, z: 10}
+  - {x: 3, y: 6, z: 10}
   rotation:
   - {x: -0, y: 0, z: 0}
   - {x: -0, y: 0, z: 0}
@@ -29,3 +29,11 @@ MonoBehaviour:
   - {x: -0, y: 0, z: 0}
   - {x: -0, y: 0, z: 0}
   slope: 01000101000000
+  height:
+  - 0.375
+  - 0.375
+  - 0.375
+  - 0.375
+  - 0.25
+  - 0.25
+  - 0.75

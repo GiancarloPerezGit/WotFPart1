@@ -5,7 +5,7 @@ using UnityEngine;
 public class Tile : MonoBehaviour
 {
     //This variable determines how much variety in height is possible. At 0.25, a height of 1 would require 4 stacked tiles
-    public const float stepHeight = 0.25f;
+    public const float stepHeight = 0.125f;
     
     //x and z value
     public Point pos;
@@ -39,8 +39,8 @@ public class Tile : MonoBehaviour
     //Update tile to match the new height/pos
     void Match()
     {
-        transform.localPosition = new Vector3(pos.x, height * stepHeight / 2f, pos.y);
-        transform.localScale = new Vector3(1, height * stepHeight, 1);
+        transform.localPosition = new Vector3(pos.x, height * stepHeight, pos.y);
+        //transform.localScale = new Vector3(1, height * stepHeight, 1);
         transform.localRotation = Quaternion.Euler(rotation);
     }
 

@@ -1166,6 +1166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heading: {fileID: 1029382865}
   battleController: {fileID: 633812932}
+  rC: 0
 --- !u!114 &633812932
 MonoBehaviour:
   m_ObjectHideFlags: 0
