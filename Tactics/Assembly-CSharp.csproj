@@ -64,6 +64,12 @@
   <ItemGroup>
     <Compile Include="Assets\AnchorTests.cs" />
     <Compile Include="Assets\FadeToBlack.cs" />
+    <Compile Include="Assets\FastIK\Scripts\FastIK\FastIKCCD.cs" />
+    <Compile Include="Assets\FastIK\Scripts\FastIK\FastIKFabric.cs" />
+    <Compile Include="Assets\FastIK\Scripts\FastIK\FastIKLook.cs" />
+    <Compile Include="Assets\FastIK\Scripts\Sample\SampleProcedualAnimation.cs" />
+    <Compile Include="Assets\FastIK\Scripts\Sample\SampleRotator.cs" />
+    <Compile Include="Assets\FastIK\Scripts\Sample\SampleSinMover.cs" />
     <Compile Include="Assets\Scripts\Common\Animation\EasingControl.cs" />
     <Compile Include="Assets\Scripts\Common\Animation\EasingEquations.cs" />
     <Compile Include="Assets\Scripts\Common\Animation\RectTransformAnchorPositionTweener.cs" />
@@ -243,7 +249,9 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\lockNail.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\FastIK\Documentation.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
