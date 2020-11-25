@@ -3,9 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 public class ConeAbilityRange : AbilityRange
 {
+
     public override bool directionOriented { get { return true; } }
     public override List<Tile> GetTilesInRange(Board board)
     {
+        print("Test3");
         Point pos = unit.tile.pos;
         List<Tile> retValue = new List<Tile>();
         int dir = (unit.dir == Directions.North || unit.dir == Directions.East) ? 1 : -1;
@@ -18,10 +20,14 @@ public class ConeAbilityRange : AbilityRange
                 int max = (lateral / 2);
                 for (int x = min; x <= max; ++x)
                 {
-                    Point next = new Point(pos.x + x, pos.y + (y * dir));
-                    Tile tile = board.GetTile(next);
-                    if (ValidTile(tile))
-                        retValue.Add(tile);
+                    for(int z = 0; z <= 100; ++z)
+                    {
+                        Point next = new Point(pos.x + x, pos.y + (y * dir));
+                        Tile tile = board.GetTile(next, z);
+                        if (ValidTile(tile))
+                            retValue.Add(tile);
+                    }
+                    
                 }
                 lateral += 2;
             }
@@ -34,10 +40,14 @@ public class ConeAbilityRange : AbilityRange
                 int max = (lateral / 2);
                 for (int y = min; y <= max; ++y)
                 {
-                    Point next = new Point(pos.x + (x * dir), pos.y + y);
-                    Tile tile = board.GetTile(next);
-                    if (ValidTile(tile))
-                        retValue.Add(tile);
+                    for (int z = 0; z <= 100; ++z)
+                    {
+                        Point next = new Point(pos.x + (x * dir), pos.y + y);
+                        Tile tile = board.GetTile(next, z);
+                        if (ValidTile(tile))
+                            retValue.Add(tile);
+                    }
+                        
                 }
                 lateral += 2;
             }

@@ -54,7 +54,7 @@ public class CommandSelectionState : BaseAbilityMenuState
         {
             turn.UndoMove();
             abilityMenuPanelController.SetLocked(0, false);
-            SelectTile(turn.actor.tile.pos);
+            SelectTile(turn.actor.tile.pos, turn.actor.tile.height);
         }
         else
         {

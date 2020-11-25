@@ -66,6 +66,7 @@
     <Compile Include="Assets\Editor\BoardCreatorInspector.cs" />
     <Compile Include="Assets\Editor\JobParser.cs" />
     <Compile Include="Assets\Editor\ScriptableObjectUtility.cs" />
+    <Compile Include="Assets\Editor\TrianglePrimitive.cs" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>D:/UnityGit/WotFPart1/Tactics/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
@@ -77,6 +78,15 @@
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>D:/UnityGit/WotFPart1/Tactics/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>D:/UnityGit/WotFPart1/Tactics/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>D:/UnityGit/WotFPart1/Tactics/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>D:/UnityGit/WotFPart1/Tactics/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
       <HintPath>D:/UnityGit/WotFPart1/Tactics/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
@@ -113,6 +123,9 @@
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
       <HintPath>D:/UnityGit/WotFPart1/Tactics/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>D:/UnityGit/WotFPart1/Tactics/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>D:/UnityGit/WotFPart1/Tactics/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>

@@ -12,7 +12,7 @@ public class MoveTargetState : BattleState
         Movement mover = turn.actor.GetComponent<Movement>();
         tiles = mover.GetTilesInRange(board);
         board.SelectTiles(tiles);
-        RefreshPrimaryStatPanel(pos);
+        RefreshPrimaryStatPanel(pos, turn.actor.tile.height);
     }
 
     public override void Exit()
@@ -54,8 +54,23 @@ public class MoveTargetState : BattleState
         }
         
         Point p = new Point(x, y);
-        SelectTile(p + pos);
-        RefreshPrimaryStatPanel(pos);
+        //SelectTile(p + pos, turn.actor.tile.height);
+        int i = 0;
+        for (i = 0; i < 10000; i++)
+        {
+            if (board.GetTile(p + pos, i) == null)
+            {
+
+            }
+            else
+            {
+                SelectTile(p + pos, i);
+                break;
+            }
+        }
+        RefreshPrimaryStatPanel(pos, i);
+        
+
     }
 
     protected override void OnFire(object sender, InfoEventArgs<int> e)
@@ -69,5 +84,34 @@ public class MoveTargetState : BattleState
         {
             owner.ChangeState<CommandSelectionState>();
         }
+    }
+
+    protected override void OnCycle(object sender, InfoEventArgs<int> e)
+    {
+        for (int i = (int)(tileSelectionIndicator.position.y / 0.125f) + 1; i < 10000; i++)
+        {
+            if (board.GetTile(pos, i) == null)
+            {
+
+            }
+            else
+            {
+                SelectTile(pos, i);
+                return;
+            }
+        }
+        for (int i = (int)(tileSelectionIndicator.position.y / 0.125f) - 1; i >= 0; i--)
+        {
+            if (board.GetTile(pos, i) == null)
+            {
+
+            }
+            else
+            {
+                SelectTile(pos, i);
+                return;
+            }
+        }
+
     }
 }

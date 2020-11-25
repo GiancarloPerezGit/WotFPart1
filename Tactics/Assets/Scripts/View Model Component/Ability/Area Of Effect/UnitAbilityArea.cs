@@ -3,10 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 public class UnitAbilityArea : AbilityArea
 {
-    public override List<Tile> GetTilesInArea(Board board, Point pos)
+    public override List<Tile> GetTilesInArea(Board board, Point pos, float h)
     {
         List<Tile> retValue = new List<Tile>();
-        Tile tile = board.GetTile(pos);
+        Tile tile = board.GetTile(pos, h);
         if (tile != null)
             retValue.Add(tile);
         return retValue;

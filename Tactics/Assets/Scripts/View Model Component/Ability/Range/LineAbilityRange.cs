@@ -30,7 +30,7 @@ public class LineAbilityRange : AbilityRange
             else if (startPos.x > endPos.x) startPos.x--;
             if (startPos.y < endPos.y) startPos.y++;
             else if (startPos.y > endPos.y) startPos.y--;
-            Tile t = board.GetTile(startPos);
+            Tile t = board.GetTile(startPos, unit.tile.height);
             if (t != null && Mathf.Abs(t.height - unit.tile.height) <= vertical)
                 retValue.Add(t);
         }

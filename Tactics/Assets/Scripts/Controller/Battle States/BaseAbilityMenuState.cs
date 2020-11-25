@@ -10,7 +10,7 @@ public abstract class BaseAbilityMenuState : BattleState
     public override void Enter()
     {
         base.Enter();
-        SelectTile(turn.actor.tile.pos);
+        SelectTile(turn.actor.tile.pos, turn.actor.tile.height);
         LoadMenu();
     }
 

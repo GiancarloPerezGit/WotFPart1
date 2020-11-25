@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontal: 3
-  vertical: 1
+  vertical: 5
 --- !u!114 &2076821516906522751
 MonoBehaviour:
   m_ObjectHideFlags: 0

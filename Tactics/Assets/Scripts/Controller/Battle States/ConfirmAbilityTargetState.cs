@@ -13,10 +13,10 @@ public class ConfirmAbilityTargetState : BattleState
     {
         base.Enter();
         aa = turn.ability.GetComponent<AbilityArea>();
-        tiles = aa.GetTilesInArea(board, pos);
+        tiles = aa.GetTilesInArea(board, pos, turn.actor.tile.height);
         board.SelectTiles(tiles);
         FindTargets();
-        RefreshPrimaryStatPanel(turn.actor.tile.pos);
+        RefreshPrimaryStatPanel(turn.actor.tile.pos, turn.actor.tile.height);
 
         if (turn.targets.Count > 0)
         {
@@ -83,7 +83,7 @@ public class ConfirmAbilityTargetState : BattleState
 
         if (turn.targets.Count > 0)
         {
-            RefreshSecondaryStatPanel(turn.targets[index].pos);
+            RefreshSecondaryStatPanel(turn.targets[index].pos, turn.targets[index].height);
             UpdateHitSuccessIndicator();
         }
     }

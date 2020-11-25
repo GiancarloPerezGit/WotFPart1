@@ -16,6 +16,7 @@ public abstract class BattleState : State
     public HitSuccessIndicator hitSuccessIndicator { get { return owner.hitSuccessIndicator; } }
     public Turn turn { get { return owner.turn; } }
     public List<Unit> units { get { return owner.units; } }
+    public float height { get { return owner.height; } set { owner.height = value; } }
 
     protected virtual void Awake()
     {
@@ -26,12 +27,14 @@ public abstract class BattleState : State
     {
         InputController.moveEvent += OnMove;
         InputController.fireEvent += OnFire;
+        InputController.cycleEvent += OnCycle;
     }
 
     protected override void RemoveListeners()
     {
         InputController.moveEvent -= OnMove;
         InputController.fireEvent -= OnFire;
+        InputController.cycleEvent -= OnCycle;
     }
 
     protected virtual void OnMove(object sender, InfoEventArgs<Point> e)
@@ -44,34 +47,42 @@ public abstract class BattleState : State
 
     }
 
-    protected virtual void SelectTile(Point p)
+    protected virtual void OnCycle(object sender, InfoEventArgs<int> e)
     {
-        if (pos == p || !board.tiles.ContainsKey(p))
-            return;
 
-        pos = p;
-        tileSelectionIndicator.localPosition = board.tiles[p].center;
     }
 
-    protected virtual Unit GetUnit(Point p)
+    protected virtual void SelectTile(Point p, float h)
     {
-        Tile t = board.GetTile(p);
+        //print("test");
+        if ((pos == p && height == h) || !board.heightTiles.ContainsKey((p, h)))
+            return;
+       // print("test");
+        pos = p;
+        height = h;
+        tileSelectionIndicator.localPosition = board.heightTiles[(p, h)].center;
+        
+    }
+
+    protected virtual Unit GetUnit(Point p, float h)
+    {
+        Tile t = board.GetTile(p, h);
         GameObject content = t != null ? t.content : null;
         return content != null ? content.GetComponent<Unit>() : null;
     }
 
-    protected virtual void RefreshPrimaryStatPanel(Point p)
+    protected virtual void RefreshPrimaryStatPanel(Point p, float h)
     {
-        Unit target = GetUnit(p);
+        Unit target = GetUnit(p, h);
         if (target != null)
             statPanelController.ShowPrimary(target.gameObject);
         else
             statPanelController.HidePrimary();
     }
 
-    protected virtual void RefreshSecondaryStatPanel(Point p)
+    protected virtual void RefreshSecondaryStatPanel(Point p, float h)
     {
-        Unit target = GetUnit(p);
+        Unit target = GetUnit(p, h);
         if (target != null)
             statPanelController.ShowSecondary(target.gameObject);
         else

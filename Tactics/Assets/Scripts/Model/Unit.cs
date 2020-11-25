@@ -119,7 +119,7 @@ public class Unit : MonoBehaviour
             }
             else if (rotateCount == 3)
             {
-                activateSprite(9);
+                activateSprite(5);
             }
         }
     }

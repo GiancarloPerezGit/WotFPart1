@@ -8,6 +8,8 @@ public class Board : MonoBehaviour
     [SerializeField] GameObject tilePrefab;
 
     public Dictionary<Point, Tile> tiles = new Dictionary<Point, Tile>();
+    public Dictionary<(Point,float), Tile> heightTiles = new Dictionary<(Point, float), Tile>();
+
 
     Color selectedTileColor = new Color(0, 1, 1, 1);
     Color defaultTileColor = new Color(1, 1, 1, 1);
@@ -25,8 +27,8 @@ public class Board : MonoBehaviour
         {
             GameObject instance = Instantiate(tilePrefab) as GameObject;
             Tile t = instance.GetComponent<Tile>();
-            t.Load(data.tiles[i], data.slope[i], data.rotation[i]);
-            tiles.Add(t.pos, t);
+            t.Load(data.tiles[i], data.slope[i], data.outCorner[i], data.inCorner[i], data.rotation[i]);
+            heightTiles.Add((t.pos, t.height), t);
             _min.x = Mathf.Min(_min.x, t.pos.x);
             _min.y = Mathf.Min(_min.y, t.pos.y);
             _max.x = Mathf.Max(_max.x, t.pos.x);
@@ -55,16 +57,20 @@ public class Board : MonoBehaviour
             Tile t = checkNow.Dequeue();
             for (int i = 0; i < 4; ++i)
             {
-                Tile next = GetTile(t.pos + dirs[i]);
-                if (next == null || next.distance <= t.distance + 1)
-                    continue;
-                if (addTile(t, next))
+                for(int z = 0; z <= 100; ++z)
                 {
-                    next.distance = t.distance + 1;
-                    next.prev = t;
-                    checkNext.Enqueue(next);
-                    retValue.Add(next);
+                    Tile next = GetTile(t.pos + dirs[i], z);
+                    if (next == null || next.distance <= t.distance + 1)
+                        continue;
+                    if (addTile(t, next))
+                    {
+                        next.distance = t.distance + 1;
+                        next.prev = t;
+                        checkNext.Enqueue(next);
+                        retValue.Add(next);
+                    }
                 }
+                
             }
             if (checkNow.Count == 0)
                 SwapReference(ref checkNow, ref checkNext);
@@ -76,15 +82,27 @@ public class Board : MonoBehaviour
     public void SelectTiles(List<Tile> tiles)
     {
         for (int i = tiles.Count - 1; i >= 0; --i)
+        {
             //tiles[i].GetComponent<Renderer>().material.SetColor("_Color", selectedTileColor);
             //tiles[i].GetComponent<Renderer>().material.SetColor("_Color", selectedTileColor);
-            tiles[i].transform.GetChild(0).GetComponent<MeshRenderer>().enabled = true;
+            tiles[i].transform.GetChild(0).GetChild(0).GetComponent<MeshRenderer>().enabled = true;
+            if (tiles[i].transform.GetChild(0).childCount > 1)
+            {
+                tiles[i].transform.GetChild(0).GetChild(1).GetComponent<MeshRenderer>().enabled = true;
+            }
+        }
     }
     public void DeSelectTiles(List<Tile> tiles)
     {
         for (int i = tiles.Count - 1; i >= 0; --i)
+        {
             //tiles[i].GetComponent<Renderer>().material.SetColor("_Color", defaultTileColor);
-            tiles[i].transform.GetChild(0).GetComponent<MeshRenderer>().enabled = false;
+            tiles[i].transform.GetChild(0).GetChild(0).GetComponent<MeshRenderer>().enabled = false;
+            if (tiles[i].transform.GetChild(0).childCount > 1)
+            {
+                tiles[i].transform.GetChild(0).GetChild(1).GetComponent<MeshRenderer>().enabled = false;
+            }
+        }
     }
 
     void SwapReference(ref Queue<Tile> a, ref Queue<Tile> b)
@@ -95,14 +113,14 @@ public class Board : MonoBehaviour
     }
 
 
-    public Tile GetTile(Point p)
+    public Tile GetTile(Point p, float h)
     {
-        return tiles.ContainsKey(p) ? tiles[p] : null;
+        return heightTiles.ContainsKey((p,h)) ? heightTiles[(p,h)] : null;
     }
 
     void ClearSearch()
     {
-        foreach (Tile t in tiles.Values)
+        foreach (Tile t in heightTiles.Values)
         {
             t.prev = null;
             t.distance = int.MaxValue;

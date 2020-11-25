@@ -14,7 +14,8 @@ public class InitBattleState : BattleState
     {
         board.Load(levelData);
         Point p = new Point((int)levelData.tiles[0].x, (int)levelData.tiles[0].z);
-        SelectTile(p);
+        float h = levelData.tiles[0].y;
+        SelectTile(p, h);
         SpawnTestUnits();
         owner.round = owner.gameObject.AddComponent<TurnOrderController>().Round();
         yield return null;
@@ -28,7 +29,7 @@ public class InitBattleState : BattleState
     
             "Marauder", "Marauder"
         };
-        List<Tile> locations = new List<Tile>(board.tiles.Values);
+        List<Tile> locations = new List<Tile>(board.heightTiles.Values);
         for (int i = 0; i < recipes.Length; ++i)
         {
             int level = UnityEngine.Random.Range(9, 12);
@@ -42,6 +43,6 @@ public class InitBattleState : BattleState
             unit.Match();
             units.Add(unit);
         }
-        SelectTile(units[0].tile.pos);
+        SelectTile(units[0].tile.pos, units[0].tile.height);
     }
 }

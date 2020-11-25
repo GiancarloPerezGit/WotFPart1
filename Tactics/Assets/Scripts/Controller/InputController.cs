@@ -9,10 +9,12 @@ public class InputController : MonoBehaviour
 
     Repeater _hor = new Repeater("Horizontal");
     Repeater _ver = new Repeater("Vertical");
-
+    Repeater _cyc = new Repeater("Cycle");
     private bool shift = false;
     public static event EventHandler<InfoEventArgs<Point>> moveEvent;
     public static event EventHandler<InfoEventArgs<int>> fireEvent;
+    public static event EventHandler<InfoEventArgs<int>> cycleEvent;
+
     string[] _buttons = new string[] { "Fire1", "Fire2", "Fire3" };
 
     public BattleController battleController;
@@ -23,7 +25,7 @@ public class InputController : MonoBehaviour
     {
         int x = _hor.Update();
         int y = _ver.Update();
-        
+        int z = _cyc.Update();
         
         if (x != 0 || y != 0)
         {
@@ -37,6 +39,10 @@ public class InputController : MonoBehaviour
                 if (fireEvent != null)
                     fireEvent(this, new InfoEventArgs<int>(i));
             }
+        }
+        if(z != 0)
+        {
+            cycleEvent(this, new InfoEventArgs<int>(1));
         }
         if(Input.GetKeyDown("q") && !shift)
         {

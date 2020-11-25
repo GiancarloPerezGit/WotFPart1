@@ -33,8 +33,16 @@ public class BoardCreatorInspector : Editor
             current.Load();
         if (GUILayout.Button("Rotate"))
             current.Rotate();
-        if (GUILayout.Button("Create"))
+        if (GUILayout.Button("Create Flat"))
             current.CreateTile();
+        if (GUILayout.Button("Create Slope"))
+            current.SCreateTile();
+        if (GUILayout.Button("Create Out Corner"))
+            current.OCreateTile();
+        if (GUILayout.Button("Create In Corner"))
+            current.ICreateTile();
+        if (GUILayout.Button("Remove"))
+            current.RemoveTile();
         if (GUI.changed)
             current.UpdateMarker();
     }

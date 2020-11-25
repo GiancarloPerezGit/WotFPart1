@@ -19,6 +19,10 @@ public class Tile : MonoBehaviour
     public Directions dir;
 
     public bool slope = false;
+
+    public bool inCorner = false;
+
+    public bool outCorner = false;
     //Previous tile
     [HideInInspector] public Tile prev;
 
@@ -69,17 +73,73 @@ public class Tile : MonoBehaviour
     }
 
     //Set the xyz using a Unity Vector
-    public void Load(Vector3 v, bool b, Vector3 q)
+    public void Load(Vector3 v, bool b, bool o, bool i, Vector3 q)
     {
         
         slope = b;
+        outCorner = o;
+        inCorner = i;
         rotation = q;
         if (slope)
         {
             DestroyImmediate(transform.GetChild(0).gameObject);
+            DestroyImmediate(transform.GetChild(1).gameObject);
+            DestroyImmediate(transform.GetChild(1).gameObject);
+        }
+        else if (outCorner)
+        {
+            DestroyImmediate(transform.GetChild(0).gameObject);
+            DestroyImmediate(transform.GetChild(0).gameObject);
+            DestroyImmediate(transform.GetChild(1).gameObject);
+        }
+        else if (inCorner)
+        {
+            DestroyImmediate(transform.GetChild(0).gameObject);
+            DestroyImmediate(transform.GetChild(0).gameObject);
+            DestroyImmediate(transform.GetChild(0).gameObject);
+        }
+        else
+        {
+            DestroyImmediate(transform.GetChild(1).gameObject);
+            DestroyImmediate(transform.GetChild(1).gameObject);
+            DestroyImmediate(transform.GetChild(1).gameObject);
         }
         Load(new Point((int)v.x, (int)v.z), (int)v.y);
     }
 
-    
+    public void Load2(Vector3 v, bool b, bool o, bool i, Vector3 q)
+    {
+
+        slope = b;
+        outCorner = o;
+        inCorner = i;
+        rotation = q;
+        if (slope)
+        {
+            DestroyImmediate(transform.GetChild(0).gameObject);
+            DestroyImmediate(transform.GetChild(1).gameObject);
+            DestroyImmediate(transform.GetChild(1).gameObject);
+        }
+        else if (outCorner)
+        {
+            DestroyImmediate(transform.GetChild(0).gameObject);
+            DestroyImmediate(transform.GetChild(0).gameObject);
+            DestroyImmediate(transform.GetChild(1).gameObject);
+        }
+        else if (inCorner)
+        {
+            DestroyImmediate(transform.GetChild(0).gameObject);
+            DestroyImmediate(transform.GetChild(0).gameObject);
+            DestroyImmediate(transform.GetChild(0).gameObject);
+        }
+        else
+        {
+            DestroyImmediate(transform.GetChild(1).gameObject);
+            DestroyImmediate(transform.GetChild(1).gameObject);
+            DestroyImmediate(transform.GetChild(1).gameObject);
+        }
+        Load(new Point((int)v.x, (int)v.z), (int)v.y);
+    }
+
+
 }

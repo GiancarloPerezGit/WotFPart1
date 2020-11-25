@@ -5,6 +5,7 @@ public class ConstantAbilityRange : AbilityRange
 {
     public override List<Tile> GetTilesInRange(Board board)
     {
+        print("test");
         return board.Search(unit.tile, ExpandSearch);
     }
     bool ExpandSearch(Tile from, Tile to)

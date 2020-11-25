@@ -1186,6 +1186,7 @@ MonoBehaviour:
   pos:
     x: 0
     y: 0
+  height: 0
   heroPrefab: {fileID: 9014782608473907897, guid: a7c7ace7fd7a04e4db03345ccf3f92a8,
     type: 3}
   guardPrefab: {fileID: 7993119723326080977, guid: 4ff8635387fd30143a4b6f34022c5508,
@@ -1906,7 +1907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bac218049c08084b8609977e6a96c97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tilePrefab: {fileID: 7089054405475309211, guid: ba59de3109854d847a87941bc23be194,
+  tilePrefab: {fileID: 9188330742623990938, guid: 3d4d1ea6a0fc0c44aabf1dc40669749e,
     type: 3}
 --- !u!4 &1180169017
 Transform:
@@ -2942,7 +2943,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: -10
   far clip plane: 1000
   field of view: 60
   orthographic: 1
